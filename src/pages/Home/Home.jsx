@@ -9,7 +9,7 @@ function Home() {
       <Navbar />
       <section className="banner-cont">
         <img
-          src="../../../public/background2.jpg"
+          src="/background2.jpg"
           className="banner-img"
           alt=""
         />
