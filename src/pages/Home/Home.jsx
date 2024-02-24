@@ -15,21 +15,21 @@ function Home() {
         />
       </section>
       <section className="card-section">
-        <Card image="/public/gallery/01.jpg" />
-        <Card image="/public/gallery/02.jpg" />
-        <Card image="/public/gallery/03.jpg" />
-        <Card image="/public/gallery/04.jpg" />
-        <Card image="/public/gallery/05.jpg" />
-        <Card image="/public/gallery/06.jpg" />
-        <Card image="/public/gallery/07.jpg" />
-        <Card image="/public/gallery/08.jpg" />
-        <Card image="/public/gallery/09.jpg" />
-        <Card image="/public/gallery/10.jpg" />
-        <Card image="/public/gallery/11.jpg" />
-        <Card image="/public/gallery/12.jpg" />
-        <Card image="/public/gallery/13.jpg" />
-        <Card image="/public/gallery/14.jpg" />
-        <Card image="/public/gallery/15.jpg" />
+        <Card image="/gallery/01.jpg" />
+        <Card image="/gallery/02.jpg" />
+        <Card image="/gallery/03.jpg" />
+        <Card image="/gallery/04.jpg" />
+        <Card image="/gallery/05.jpg" />
+        <Card image="/gallery/06.jpg" />
+        <Card image="/gallery/07.jpg" />
+        <Card image="/gallery/08.jpg" />
+        <Card image="/gallery/09.jpg" />
+        <Card image="/gallery/10.jpg" />
+        <Card image="/gallery/11.jpg" />
+        <Card image="/gallery/12.jpg" />
+        <Card image="/gallery/13.jpg" />
+        <Card image="/gallery/14.jpg" />
+        <Card image="/gallery/15.jpg" />
       </section>
       <Footer />
     </>
