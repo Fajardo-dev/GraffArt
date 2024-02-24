@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    padding: 3rem 5rem;
+    background-color: #000;
+    font-style: normal;
+    font-family: "Pacifico", cursive;
+    justify-content: space-between;
+    transition: all .2s ease;
+}
+
+footer a h1, footer h1{
+    font-size: 25px;
+    color: #9D9588;
+}
+
+footer a h1:hover{
+    color: #fff;
+    cursor: pointer;
+}
+

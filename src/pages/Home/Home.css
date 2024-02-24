@@ -1,0 +1,12 @@
+.banner-cont{
+    width: 70%;
+    margin: 1rem auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img{
+    border-radius: 2rem;
+    width: 100%;
+}
