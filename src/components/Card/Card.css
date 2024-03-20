@@ -2,10 +2,8 @@
     width: 90%;
     columns: 6 250px;
     column-gap: 1em;
-    margin: 1em auto;
-    text-align: center;
+    margin: 0 auto;
     border-radius: 2rem;
-    padding: 2rem;
     z-index: 0;
 }
 
@@ -14,9 +12,10 @@
     margin: 1em 0;
 }
 
-.card h1{
-    color: #fff;
-    font-size: 20px;
+.card h3{
+    margin-left: 5px;
+    color: #000;
+    font-size: 15px;
 }
 
 .title-card{
@@ -65,4 +64,22 @@
 
 .button-card p:hover{
     color: var(--main-bg-color);
+}
+
+.user-cont{
+    display: flex;
+    height: 25px;
+    margin: 2px 0;
+}
+
+.user-cont img{
+    width: auto;
+    border-radius: 100%;
+}
+
+.user-cont p{
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    font-family: "Pacifico", cursive;
 }

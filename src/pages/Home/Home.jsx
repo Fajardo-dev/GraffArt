@@ -1,4 +1,5 @@
 import "./Home.css";
+
 import Navbar from "../../components/Navbar/Navbar";
 import Card from "../../components/Card/Card";
 import Footer from "../../components/Footer/Footer";
@@ -8,11 +9,7 @@ function Home() {
     <>
       <Navbar />
       <section className="banner-cont">
-        <img
-          src="/background2.jpg"
-          className="banner-img"
-          alt=""
-        />
+        <img src="/background2.jpg" className="banner-img" alt="" />
       </section>
       <section className="card-section">
         <Card image="/gallery/01.jpg" />

@@ -1,0 +1,53 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    background-image: url(../../../public/background.png);
+}
+.login-cont, .signup-cont{
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dad8d8;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.login-cont input, .signup-cont input{
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #dad8d8;
+}
+
+.login-cont button, .signup-cont button{
+    margin: 0.5rem 0;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #dad8d8;
+    background-color: #000;
+    color: #fff;
+    font-size: 17px;
+}
+
+.login-cont h2, .signup-cont h2{
+    margin: 1.5rem 0;
+    font-size: 40px;
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+}
+
+.login-cont button:hover, .signup-cont button:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000
+}
+
+.login-cont input::placeholder, .signup-cont input::placeholder{
+    font-family: "Pacifico", cursive;
+}

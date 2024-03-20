@@ -1,11 +1,15 @@
 import "./Card.css";
 
-function Card({ image }) {
+function Card({ image, title, img, name }) {
   return (
     <article>
       <div className="card">
-        <h1>F</h1>
         <img src={image} alt="" className="img-card" />
+        <h3>{title}</h3>
+        <div className="user-cont">
+          <img src={img} alt="" />
+          <p>{name}</p>
+        </div>
       </div>
     </article>
   );
